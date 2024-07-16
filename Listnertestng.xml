@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="Utils.Listners"/>
+	</listeners>
+	
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AppiumBasics.Android.eCommerec_tc_4_Hybrid"/>
+      <class name="AppiumBasics.IOS.eCommerceIOS_TC_5_Hybrid"/>
+      <class name="AppiumBasics.IOS.IOSBaseTest"/>
+      <class name="AppiumBasics.Android.basciappium"/>
+      <class name="AppiumBasics.Android.AndroidBaseTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
